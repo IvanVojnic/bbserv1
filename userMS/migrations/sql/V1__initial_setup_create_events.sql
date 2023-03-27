@@ -4,7 +4,9 @@ create table if not exists users
     email        VARCHAR(255) NOT NULL UNIQUE,
     name         VARCHAR(255) NOT NULL UNIQUE,
     password     VARCHAR(255) NOT NULL,
-    refreshtoken VARCHAR(255)
+    refreshtoken VARCHAR(255),
+    isDeleted    BOOLEAN      NOT NULL,
+    deviceToken  VARCHAR(255)
 );
 
 create table if not exists friends
@@ -17,4 +19,4 @@ create table if not exists friends
         ON DELETE CASCADE,
     FOREIGN KEY (userReceiver) REFERENCES users (id)
         ON DELETE CASCADE
-)
+);

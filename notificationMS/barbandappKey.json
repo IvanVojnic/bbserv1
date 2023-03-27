@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "barbandapp",
+  "private_key_id": "c8013589cdac4b7126739f6eaeb01baf53e473fd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC31o+KHmRzDHJ3\nCKPfTai799QBtdSIKZtAeqeZKm4yluUUlIPEBgGyEcbLVCjkZe5yIqzNi8vpSg4z\nNBr7qOjCIQDKe4WKh8Ki7chba/Ud/io8N1nP9L2M+ZOHb1iKVT9dcjnQlwcXED/e\nl4TPjctyST17rHlfycAZ6uO+lV/Jpgz1/JoLk/RSsrD/kXvEaNwpdvpXQyIdwsAx\n1bHZKMxuraWeTcQJtJs77aEFu1jC8lsLkS5tCHqcItulCyVcSCFVkDSb1O8gCHqb\n9QcPwjikRqdHOd30s/Nt3zjZBOXgD1M2g7iqTQ+3izNt4WjSEexoR+kbPVPWv/KJ\nUM5Ou3ZLAgMBAAECggEAC15FaXugQSyp+Wo7dzTrGpb+CvSh324Y1fk5WwBKNaIQ\nj9/wcNNHdvagp45qEItGUW2LTqyp7LolInQPuE2rxksNkvfl4qxEurGTAo0TAj20\nG+qQvCQWaRALJPfOofZ/YOza3jP9fsCE/cohFUd5JyiYGKLdejE6/WW1AeIxcBug\n4daoSvUKasGf3Wyxo2lOou+6g5PlSdPx0moRjXsIlXqXxaded+cZsQ1CU23BttwM\neUoqKI4l8KapYP9Bmul1IC3KkVpXRN72vISQxw9aYUqkTW5cPrFlTymO5/N9peEM\n5zDxYqlCo/tpnsjmPM6+9rGFiu0d4Knl/XdB8++KeQKBgQDcYZr/JvsIiSISjiCD\nE8CyxGDdgeb0K4lzezyaEdWRe6Lt26Tp+z4jBEERkAEg3bEShH1M4RJ340SJLZm8\nGSNoMym3Ju8v1iSQSnEPUqOInEsVyN4ffqFFYVYT7g2A3vO1DjMLNSYcCczV/n6/\nl8o/uNn8ruLdTaNZxeiBZF+ZEwKBgQDVjPZ+7XuhvGkoG5yNoG65/uorgcUCLpwx\nJKSnmIs/636qU/Y34ALcPYbJmAwtAR7i6EClHoKAmlh+Nn3fwR8MX+MEG8reMiS5\nl4sMk4DFobmvSqH026GsMCuzvvHpYW648b3aFdxWhvllJeauJeJXt0Af5ubCJg20\nZsZzaQrM6QKBgC8QeTV8cagFAU3NJIxZr5F99uHXWCdVFOmgq/SLUnzbVpRNkA6Y\nJVD9G5hQlK0cKzC1Mr00Y+lOk9hn8KkHBVS/eG0w12vz46MdAsAu+dW26yIf37AC\nLxbODr/62s9mzc0g1y3Rj+30+dXJn+/yzrKFG6inALQaXIRTi6/2a6QZAoGBAJZO\nkXDlVo+QPbOtO5OzyDvB4LCetjvC8szkLcCI7foflxfr4PGTCnBaHfTmwCstDsBH\nGLkfsFs0R/UOBaroEyJymybZKQEb6h13PLetWoXAPyHSNgxSSokXnqr1SvApU/V4\nsVg+6sc8WW2IL8WDhLyYjtnle6ZLgnnnnOa+mIuBAoGAFxZTaGInHiKoM8jfp5Kp\noP605lWXak8UStDXdS4/n4YaMvfwem+odOBRZHaPU7N81QYFasShXIHC0rx390hJ\nwR86PiD/I26/5z2z5LbcVZBMB6NhWPmfMbZYftg4b0QDjzpK8Z7hZxvSMYarK03A\nAdxpKufX8dCiilZyLQqFH5E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "barbandapp@barbandapp.iam.gserviceaccount.com",
+  "client_id": "102929374084879356021",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/barbandapp%40barbandapp.iam.gserviceaccount.com"
+}
