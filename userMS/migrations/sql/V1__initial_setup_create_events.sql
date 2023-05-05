@@ -5,8 +5,7 @@ create table if not exists users
     name         VARCHAR(255) NOT NULL UNIQUE,
     password     VARCHAR(255) NOT NULL,
     refreshtoken VARCHAR(255),
-    isDeleted    BOOLEAN      NOT NULL,
-    deviceToken  VARCHAR(255)
+    isDeleted    BOOLEAN      NOT NULL
 );
 
 create table if not exists friends
@@ -41,5 +40,12 @@ create table if not exists categories_users
         ON DELETE CASCADE
 );
 
-
-
+create table if not exists tokens_users
+(
+    id uuid PRIMARY KEY,
+    user_id uuid NOT NULL,
+    device_token VARCHAR(255) NOT NULL UNIQUE,
+    registration_token VARCHAR(255) UNIQUE,
+    FOREIGN KEY (user_id) REFERENCES users (id)
+        ON DELETE CASCADE
+)
