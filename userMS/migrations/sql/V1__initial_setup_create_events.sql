@@ -44,7 +44,7 @@ create table if not exists tokens_users
 (
     id uuid PRIMARY KEY,
     user_id uuid NOT NULL,
-    device_token VARCHAR(255) NOT NULL UNIQUE,
+    device_token VARCHAR(255) NOT NULL,
     registration_token VARCHAR(255) UNIQUE,
     FOREIGN KEY (user_id) REFERENCES users (id)
         ON DELETE CASCADE
