@@ -24,7 +24,7 @@ create table if not exists categories
 (
     id              uuid PRIMARY KEY,
     user_creator_id uuid         NOT NULL,
-    name            VARCHAR(255) NOT NULL,
+    name            VARCHAR(255) NOT NULL UNIQUE,
     FOREIGN KEY (user_creator_id) REFERENCES users (id)
         ON DELETE CASCADE
 );
@@ -33,7 +33,7 @@ create table if not exists categories_users
 (
     id          uuid PRIMARY KEY,
     category_id uuid NOT NULL,
-    user_id     uuid NOT NULL,
+    user_id     uuid NOT NULL UNIQUE,
     FOREIGN KEY (category_id) REFERENCES categories (id)
         ON DELETE CASCADE,
     FOREIGN KEY (user_id) REFERENCES users (id)
@@ -49,3 +49,6 @@ create table if not exists tokens_users
     FOREIGN KEY (user_id) REFERENCES users (id)
         ON DELETE CASCADE
 )
+
+
+
