@@ -56,11 +56,11 @@ services:
     build: ./cmdMS
     image: vojnic/cmd:cmdMS
     ports:
-      - "8000:8000"
+      - "80:80"
     environment:
       - VIRTUAL_HOST=barband.xyz
       - LETSENCRYPT_HOST=barband.xyz
-      - PORT=8000
+      - PORT=80
     networks:
       - default
   postgres_room:
