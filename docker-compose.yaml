@@ -48,7 +48,7 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=postgres
     ports:
-      - "8000:8000"
+      - "40000:40000"
     networks:
       - default
   app_cmd:
@@ -56,8 +56,10 @@ services:
     build: ./cmdMS
     image: vojnic/cmd:cmdMS
     ports:
-      - "40000:40000"
+      - "8000:8000"
     environment:
+      - VIRTUAL_HOST=barband.xyz
+      - LETSENCRYPT_HOST=barband.xyz
       - PORT=8000
     networks:
       - default
