@@ -33,7 +33,7 @@ create table if not exists categories_users
 (
     id          uuid PRIMARY KEY,
     category_id uuid NOT NULL,
-    user_id     uuid NOT NULL UNIQUE,
+    user_id     uuid NOT NULL,
     FOREIGN KEY (category_id) REFERENCES categories (id)
         ON DELETE CASCADE,
     FOREIGN KEY (user_id) REFERENCES users (id)
